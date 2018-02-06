@@ -32,6 +32,7 @@ $config['base_url']      = $protocol . $server . $basename;
 $config['link_protocol'] = $protocol;
 $config['link_domain']   = $server;
 $config['link_basename'] = $basename;
+$config['sess_save_path'] = sys_get_temp_dir();
 
 /*
 |--------------------------------------------------------------------------
