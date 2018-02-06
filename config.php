@@ -11,6 +11,5 @@ define('CONSUMER_KEY', 'fl8RPeCd4vrrAiZ8HJ3U7OiJE');
 define('CONSUMER_KEY_SECRET', 'fzFVWeM1EoQDb0YEHiy1JZMGq9nvRPW2YqliWK3ImYuEGbrGLk');
 define('OAUTH_CALLBACK', 'https://twiterbot.herokuapp.com/index.php/Callback');
 
-$config['sess_save_path'] = sys_get_temp_dir();
 
 ?>
