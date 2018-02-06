@@ -1,7 +1,7 @@
 <?php
 
 /* DATABASE SETTINGS */
-define("DB_HOSTNAME", "us-cdbr-iron-east-05.cleardb.net/heroku_7ce41d5935");
+define("DB_HOSTNAME", "us-cdbr-iron-east-05.cleardb.net");
 define("DB_USERNAME", "b639666e16822a");
 define("DB_PASSWORD", "bbd82701");
 define("DB_NAME", "heroku_7ce41d5935040b6");
