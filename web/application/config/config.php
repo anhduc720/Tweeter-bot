@@ -32,7 +32,6 @@ $config['base_url']      = $protocol . $server . $basename;
 $config['link_protocol'] = $protocol;
 $config['link_domain']   = $server;
 $config['link_basename'] = $basename;
-$config['sess_save_path'] = sys_get_temp_dir();
 
 /*
 |--------------------------------------------------------------------------
@@ -406,7 +405,7 @@ $config['encryption_key'] = '';
 $config['sess_driver'] = 'files';
 $config['sess_cookie_name'] = 'tweendo_session';
 $config['sess_expiration'] = 7200;
-$config['sess_save_path'] = NULL;
+$config['sess_save_path'] = sys_get_temp_dir();
 $config['sess_match_ip'] = FALSE;
 $config['sess_time_to_update'] = 600;
 $config['sess_regenerate_destroy'] = FALSE;
