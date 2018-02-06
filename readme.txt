@@ -1,0 +1,1 @@
+Please enter in http://your-site/tweendo/_DOCUMENTATION and view documentation for instalation and configuration of Tweendo.
